@@ -29,7 +29,7 @@ variable "aws_region_abbr_map" {
     "eu-west-1"       = "euw1"
     "eu-west-2"       = "euw2"
     "eu-west-3"       = "euw3"
-    "eusc-de-east-1"  = "euscde1"
+    "eusc-de-east-1"  = "eusce1"
     "il-central-1"    = "ilc1"
     "me-central-1"    = "mec1"
     "me-south-1"      = "mes1"
