@@ -4,7 +4,6 @@ variable "aws_region_abbr_map" {
   default = {
     "af-south-1"      = "afs1"
     "ap-east-1"       = "ape1"
-    "ap-east-2"       = "ape2"
     "ap-northeast-1"  = "apne1"
     "ap-northeast-2"  = "apne2"
     "ap-northeast-3"  = "apne3"
@@ -36,7 +35,6 @@ variable "aws_region_abbr_map" {
     "me-south-1"      = "mes1"
     "mx-central-1"    = "mxc1"
     "sa-east-1"       = "sae1"
-    "sa-west-1"       = "saw1"
     "us-east-1"       = "use1"
     "us-east-2"       = "use2"
     "us-gov-east-1"   = "usge1"
