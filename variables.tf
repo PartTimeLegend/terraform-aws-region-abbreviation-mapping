@@ -44,6 +44,8 @@ variable "aws_region_abbr_map" {
     "us-iso-east-1"   = "usie1"
     "us-iso-west-1"   = "usiw1"
     "us-isob-east-1"  = "usibe1"
+    "us-isof-east-1"  = "usife1"
+    "us-isof-south-1" = "usifs1"
     "us-west-1"       = "usw1"
     "us-west-2"       = "usw2"
   }
