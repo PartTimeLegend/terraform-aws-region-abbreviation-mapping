@@ -4,6 +4,7 @@ variable "aws_region_abbr_map" {
   default = {
     "af-south-1"      = "afs1"
     "ap-east-1"       = "ape1"
+    "ap-east-2"       = "ape2"
     "ap-northeast-1"  = "apne1"
     "ap-northeast-2"  = "apne2"
     "ap-northeast-3"  = "apne3"
@@ -22,6 +23,7 @@ variable "aws_region_abbr_map" {
     "cn-northwest-1"  = "cnnw1"
     "eu-central-1"    = "euc1"
     "eu-central-2"    = "euc2"
+    "eu-isoe-west-1"  = "euisow1"
     "eu-north-1"      = "eun1"
     "eu-south-1"      = "eus1"
     "eu-south-2"      = "eus2"
@@ -39,6 +41,9 @@ variable "aws_region_abbr_map" {
     "us-east-2"       = "use2"
     "us-gov-east-1"   = "usge1"
     "us-gov-west-1"   = "usgw1"
+    "us-iso-east-1"   = "usie1"
+    "us-iso-west-1"   = "usiw1"
+    "us-isob-east-1"  = "usibe1"
     "us-west-1"       = "usw1"
     "us-west-2"       = "usw2"
   }
