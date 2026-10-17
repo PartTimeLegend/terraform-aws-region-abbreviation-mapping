@@ -8,8 +8,13 @@ A simple module that provides mappings between AWS region IDs and standardized a
 
 - Mapping of AWS region IDs to short abbreviations
 - Supports both canonical region IDs and normalized lowercase names without hyphens
+- Includes commercial, GovCloud, sovereign, and preview/DOD/ISO-style region families
 - Helper output map to simplify regional naming across AWS resources
 - Zero external dependencies
+
+## Maintenance Note
+
+When updating this module, include all current AWS region families, including commercial, GovCloud, sovereign, and preview/DOD variants (for example: `gov`, `iso`, `isob`, `isof`, `isoe`, and future announced regions). This avoids missing newly published or restricted AWS regions.
 
 ## Usage
 
